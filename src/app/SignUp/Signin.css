@@ -1,0 +1,84 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "monospace",Monaco;
+   }
+   .card1{
+    margin-top: 20px;
+     width: 27%;
+     height: fit-content;
+     padding: 30px;
+     font-size: large;
+     backdrop-filter: blur(4px) saturate(66%);
+     -webkit-backdrop-filter: blur(4px) saturate(66%);
+     background-color: rgba(17, 25, 40, 0.18);
+     -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+     border-radius: 20px;
+     text-align: center;
+   }
+   input{
+      width: 90%;
+      height: 40px;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(226, 225, 225);
+      color: rgb(0, 0, 0);
+      border-radius: 3px;
+      border: 3px solid #e2d7d7;
+     -webkit-transition: 0.5s;
+     transition: 0.5s;
+   }
+   input::placeholder{
+       color: black;
+   }
+   input:focus{
+       border: 3px solid #af81c9;
+   }
+   .btn{
+       width: 90%;
+       height: 50px;
+       border: 3px black;
+       padding: 10px;
+       margin: 10px;
+      background-color: #055e4d;
+      color: black;
+      border-radius: 3px;
+      transition: 0.5s;
+   }
+   .btn:hover{
+       background-color: #906cb098;
+       border-radius: 4px;
+   }
+   .head{
+      color: #ffffff;
+      font-size: 70px;
+      font-weight: 500;
+      font-family: fantasy;
+      padding: auto;
+   }
+   @media screen and (max-width:1200px) {
+    .card1{
+       width: fit-content;
+       height: fit-content;
+      }
+      .head{
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: 500;
+        font-family: fantasy;
+        padding: auto;
+     }
+     input{
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px;
+     }
+     .btn{
+        width: 90%;
+        height: 50px;
+     }
+   }

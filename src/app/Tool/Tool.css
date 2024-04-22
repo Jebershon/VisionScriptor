@@ -1,0 +1,117 @@
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: monospace;
+    color: #498a7d;
+}
+.div1{
+    background-color: white;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: aquamarine solid 5px;
+}
+.title{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.649);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.align{
+ display: flex;
+ justify-content: center;
+ align-content: center;   
+}
+body {
+  background-color: black;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: aquamarine;
+  pointer-events: auto;
+  background-color: rgba(0, 0, 0, 0.45);
+  background-clip: padding-box;
+  border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+  border-radius: var(--bs-modal-border-radius);
+  outline: 0;
+}
+.modal{
+  background-color: rgba(0, 0, 0, 0.464);
+  --bs-modal-header-border-color:none;
+  --bs-modal-footer-border-color:none;
+}
+.modal-header {
+  background-color: rgba(44, 43, 43, 0.017);
+}
+.modal-footer {
+  background-color: rgba(44, 43, 43, 0.017);
+}
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgba(59, 255, 190, 0.881);
+  --bs-btn-border-color: rgba(25, 84, 64, 0.645);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(25, 84, 64, 0.645);
+  --bs-btn-hover-border-color: rgba(25, 84, 64, 0.645);
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgba(25, 84, 64, 0.645);
+  --bs-btn-active-border-color: rgba(25, 84, 64, 0.645);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgba(25, 84, 64, 0.645);
+  --bs-btn-disabled-border-color: rgba(25, 84, 64, 0.645);
+}
+.btn-close {
+  background: aquamarine var(--bs-btn-close-bg) center / 1em auto no-repeat;
+}
+/* ------------------------------------------------------- */
+.custum-file-upload {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cacaca;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+  }
+  
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
