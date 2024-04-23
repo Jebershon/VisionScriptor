@@ -12,12 +12,214 @@ import { FaCameraRetro } from "react-icons/fa";
 import './Tool.css';
 import Image from 'next/image';
 
+function Loader(){
+  return (
+    <>
+		<div className="socket">
+			<div className="gel center-gel">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c1 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c2 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c3 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c4 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c5 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c6 r1">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			
+			<div className="gel c7 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			
+			<div className="gel c8 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c9 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c10 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c11 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c12 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c13 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c14 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c15 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c16 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c17 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c18 r2">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c19 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c20 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c21 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c22 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c23 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c24 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c25 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c26 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c28 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c29 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c30 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c31 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c32 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c33 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c34 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c35 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c36 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+			<div className="gel c37 r3">
+				<div className="hex-brick h1"></div>
+				<div className="hex-brick h2"></div>
+				<div className="hex-brick h3"></div>
+			</div>
+		</div>
+    </>
+  );
+}
 export default function Home() {
   const [show, setShow] = useState(false);
+  const[display,setDisplay] = useState(false);
   const textToCopy = "Woohoo, you are reading this text in a modal!";
   const [isCopied, setIsCopied] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+  const handleShow = () =>{
+    setTimeout(()=>{setDisplay(true)},3000);
+    setTimeout(()=>{setDisplay(false)},6000);
+    setTimeout(()=>{setShow(true)},8000);
+  };
+
   const handleCopy = () => {
     const tempElement = document.createElement('textarea');
     tempElement.value = textToCopy;
@@ -49,6 +251,9 @@ export default function Home() {
           </Nav>
           </Navbar.Collapse>
       </Navbar>
+      {display?
+      <Loader/>
+      :
       <div className="container">
          <Container className="title">
          <center><h1>Image Text Reader</h1></center>
@@ -67,6 +272,7 @@ export default function Home() {
           </Container>
           </div>
       </div>
+      }
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
           <Modal.Title>Copy Text</Modal.Title>

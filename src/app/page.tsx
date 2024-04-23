@@ -8,6 +8,11 @@ import { Container,Row,Col,Card } from 'react-bootstrap';
 import './pg.css';
 import Image from 'next/image';
 import a from './Asserts/3d-isometric-monitoring-contactless-delivery-by-robot.gif';
+import b from './Asserts/3d-hygge-isometric-view-of-young-woman-working-in-vr-headset.png';
+import c from './Asserts/colors-woman-floating-in-the-air-working-with-flow-chart-and-writing-code.png';
+import d from './Asserts/memphis-ai-and-artificial-neural-networks.png';
+import e from './Asserts/modul-language-learning-app-on-smartphone.png';
+import f from './Asserts/morphis-payment-by-smartphone-by-qr-code.png';
 import { FaTwitter } from 'react-icons/fa6';
 export default function App() {
   return (
@@ -33,8 +38,8 @@ export default function App() {
           <Col lg={4}>
              <Card className='bg m-3'>
               <Image src={a} 
-              width={200}
-              height={200}
+              width={265}
+              height={265}
               alt="Picture of the author"
               style={{alignSelf:"center"}}
               />
@@ -45,7 +50,7 @@ export default function App() {
           </Col>
           <Col lg={4}>
              <Card className='bg m-3'>
-             <Image src={a}
+             <Image src={b}
              width={200}
              height={200}
              alt="Picture of the author"
@@ -58,9 +63,9 @@ export default function App() {
           </Col>
           <Col lg={4}>
              <Card className='bg m-3'>
-             <Image src={a}
-             width={200}
-             height={200}
+             <Image src={c}
+             width={265}
+             height={265}
              alt="Picture of the author"
              style={{alignSelf:"center"}}
              />
@@ -71,17 +76,33 @@ export default function App() {
           </Col>
         </Row>
         <Row>
+        <Col lg={12}>
         <Card className='bg m-3'>
-             <Image src={a}
+          <div className='img'>
+             <Image src={d}
              width={200}
              height={200}
              alt="Picture of the author"
              style={{alignSelf:"center"}}
              />
+             <Image src={e}
+             width={200}
+             height={200}
+             alt="Picture of the author"
+             style={{alignSelf:"center"}}
+             />
+             <Image src={f}
+             width={200}
+             height={200}
+             alt="Picture of the author"
+             style={{alignSelf:"center"}}
+             />
+            </div>
              <Card.Body>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga at, quae pariatur nihil non quisquam possimus perspiciatis illum nobis itaque rem facilis iure temporibus recusandae expedita, delectus quos. Omnis, ipsum!
                </Card.Body>
-             </Card>
+        </Card>
+        </Col>
         </Row>
       </Container>
       <footer>
